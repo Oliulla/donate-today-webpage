@@ -55,7 +55,7 @@ body, html {
 
 /* .donate-detail h2 { */
 h2 {
-    color: #111;
+    color: #555;
     font-size: 45px;
 }
 
@@ -154,7 +154,98 @@ h2 {
     margin-left: 15px;
     border: none;
     outline: none;
-    box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.8), -1px 2px 4px rgba(0, 0, 0, 0.19);
-    padding-left: 4px;
+    box-shadow: -1px 2px 3px rgba(0, 0, 0, 0.5), -1px 2px 3px rgba(0, 0, 0, 0.19);
+    padding: 5px 0 0 5px;
     border-radius: 5px;
+    color: #2159ab;
+}
+
+.news-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.read-news {
+    width: 20%;
+    margin: 10px;
+    box-shadow: -1px 2px 3px rgba(0, 0, 0, 0.5), -1px 2px 3px rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+
+.news-img img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.news-info {
+    padding: 0 0 30px 15px;
+}
+
+.news-info p {
+    line-height: 1.4;
+    color: #666;
+    font-size: 18px;
+}
+
+.news-info h5 {
+    color: #444;
+}
+.news-info h1 {
+    color: #666;
+    font-weight: 300;
+}
+
+.link-btn {
+    padding-top: 40px;
+    font-weight: 700;
+}
+
+.link-btn a {
+    color: #1cb2e8;
+    text-decoration: none;
+}
+
+.link-btn a:hover {
+    text-decoration: underline;
+}
+
+.update-text {
+    text-align: center;
+    padding: 0 25%;
+}
+
+.subs-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #daffff;
+}
+
+.subs-form form {
+    text-align: center;
+    margin-top: 50px;
+    padding: 0 25%;
+}
+
+.footer {
+    margin-top: 80px;
+    padding: 45px 0 65px 0;
+    background-color: #333;
+    text-align: center;
+}
+
+.footer h3 {
+    color: #afb8f0;
+    font-size: 25px;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 16px;
 }
