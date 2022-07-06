@@ -29,6 +29,7 @@ body, html {
     color: #ffffff;
     padding: 0 40px;
     line-height: 1.4;
+
 }
 
 .button {
@@ -135,4 +136,25 @@ h2 {
 .plan p {
     line-height: 1.5;
     color: #444;
+}
+
+.news .news-form {
+    text-align: center;
+}
+
+.news-form label {
+    font-size: 35px;
+    color: #223344;
+}
+
+.news-form select {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 15px;
+    border: none;
+    outline: none;
+    box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.8), -1px 2px 4px rgba(0, 0, 0, 0.19);
+    padding-left: 4px;
+    border-radius: 5px;
 }
